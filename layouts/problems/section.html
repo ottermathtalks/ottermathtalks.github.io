@@ -7,11 +7,11 @@
 
   {{ with index .RegularPages.ByDate.Reverse 0 }}
   <div class="problem-card">
-    <p class="problem-label">{{ .Params.label }}{{ if .Params.sample }} · sample{{ end }}</p>
+    <p class="problem-label">{{ .Params.label }}{{ if .Params.sample }} · {{ $.Params.sample_label | default "sample" }}{{ end }}</p>
     <div class="prose">{{ .Content }}</div>
   </div>
   {{ with .Params.deadline }}
-  <p class="section-note">Send your solution to <a href="mailto:{{ $.Site.Params.email }}">{{ $.Site.Params.email }}</a> by <strong>{{ . }}</strong>. Favorite solutions are featured — with your name — in the next issue of OTTER News.</p>
+  <p class="section-note">{{ $.Params.submit_pre | default "Send your solution to" }} <a href="mailto:{{ $.Site.Params.email }}">{{ $.Site.Params.email }}</a> {{ $.Params.submit_by | default "by" }} <strong>{{ . }}</strong>. {{ $.Params.featured_note | default "Favorite solutions are featured — with your name — in the next issue of OTTER News." }}</p>
   {{ end }}
   {{ end }}
 

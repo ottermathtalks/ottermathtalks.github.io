@@ -16,7 +16,7 @@
           <p class="talk-title"><a href="{{ .RelPermalink }}">{{ .Title }}</a></p>
           <p class="talk-byline">{{ .Params.speaker }}{{ with .Params.affiliation }} ({{ . }}){{ end }}</p>
         </div>
-        <span class="pill">upcoming</span>
+        <span class="pill">{{ $.Params.upcoming_pill | default "upcoming" }}</span>
       </li>
       {{ end }}
       {{ range .Params.upcoming_tba }}
@@ -26,7 +26,7 @@
           <p class="talk-title">{{ .title }}</p>
           {{ with .note }}<p class="talk-byline">{{ . }}</p>{{ end }}
         </div>
-        <span class="pill">upcoming</span>
+        <span class="pill">{{ $.Params.upcoming_pill | default "upcoming" }}</span>
       </li>
       {{ end }}
     </ul>

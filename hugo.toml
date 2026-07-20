@@ -56,3 +56,28 @@ buildFuture = true
   name = 'Resources'
   url = '/resources/'
   weight = 70
+
+[[languages.es.menus.main]]
+  name = 'Charlas'
+  url = '/es/talks/'
+  weight = 10
+[[languages.es.menus.main]]
+  name = 'Calendario'
+  url = '/es/calendar/'
+  weight = 20
+[[languages.es.menus.main]]
+  name = 'Problema'
+  url = '/es/problems/'
+  weight = 30
+[[languages.es.menus.main]]
+  name = 'Noticias'
+  url = '/es/news/'
+  weight = 40
+[[languages.es.menus.main]]
+  name = 'Nosotros'
+  url = '/es/about/'
+  weight = 50
+[[languages.es.menus.main]]
+  name = 'Recursos'
+  url = '/resources/'
+  weight = 70
