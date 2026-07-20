@@ -53,10 +53,6 @@ buildFuture = true
   url = '/about/'
   weight = 50
 [[languages.en.menus.main]]
-  name = 'Get involved'
-  url = '/get-involved/'
-  weight = 60
-[[languages.en.menus.main]]
   name = 'Resources'
   url = '/resources/'
   weight = 70

@@ -116,6 +116,7 @@ a:hover { color: var(--river-dark); }
   border-radius: 999px; padding: .18rem .65rem; white-space: nowrap;
 }
 .pill-sample { background: var(--amber-soft); color: var(--amber); }
+.pill-field { background: transparent; border: 1px solid var(--line); color: var(--muted); }
 
 /* ---------- talk page / prose ---------- */
 .page-head { padding: 2.6rem 0 .6rem; }

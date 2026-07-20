@@ -42,7 +42,8 @@
           <p class="talk-title"><a href="{{ .RelPermalink }}">{{ .Title }}</a></p>
           <p class="talk-byline">{{ .Params.speaker }}{{ with .Params.affiliation }} ({{ . }}){{ end }}</p>
         </div>
-        {{ if .Params.sample }}<span class="pill pill-sample">sample</span>{{ end }}
+        {{ if .Params.sample }}<span class="pill pill-sample">sample</span>
+        {{ else }}{{ with .Params.field }}<span class="pill pill-field">{{ . }}</span>{{ end }}{{ end }}
       </li>
       {{ end }}
     </ul>

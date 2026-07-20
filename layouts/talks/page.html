@@ -11,9 +11,13 @@
     <dd>{{ .Date.Format "Monday, January 2, 2006" }}{{ with .Params.talk_time }} · {{ . }}{{ end }}</dd>
     <dt>Where</dt>
     <dd>{{ .Params.where | default "Zoom — the link goes out to the mailing list" }}</dd>
+    {{ with .Params.field }}
+    <dt>Field</dt>
+    <dd>{{ . }}</dd>
+    {{ end }}
     {{ with .Params.materials }}
     <dt>Materials</dt>
-    <dd><a href="{{ . }}">Slides (PDF)</a></dd>
+    <dd><a href="{{ . }}">Slides</a></dd>
     {{ end }}
   </dl>
 
@@ -23,6 +27,7 @@
   <h2>Recording</h2>
   {{ with .Params.youtube_id }}
   <div class="video-embed"><iframe src="https://www.youtube-nocookie.com/embed/{{ . }}" title="Talk recording" allowfullscreen></iframe></div>
+  <p class="section-note"><a href="https://www.youtube.com/watch?v={{ . }}">Watch on YouTube →</a></p>
   {{ else }}
   <div class="video-placeholder">Recording will appear here after the talk</div>
   {{ end }}
