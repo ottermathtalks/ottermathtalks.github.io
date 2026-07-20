@@ -9,5 +9,5 @@ upcoming_tba:
   - when: "November 2026"
     title: "Title TBA"
 archive_title: "Archive"
-archive_note: "Talks from the original OTTER series live on the YouTube channel; they migrate into this archive in August."
+archive_note: "Talks from the original OTTER series live on [the YouTube channel](https://www.youtube.com/@ottermathtalks3601); they migrate into this archive in August."
 ---

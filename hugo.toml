@@ -18,7 +18,7 @@ buildFuture = true
 
 [params]
   email = 'ottermathtalks@gmail.com'
-  youtube = '#'   # TODO: real YouTube channel URL (from asset handoff)
+  youtube = 'https://www.youtube.com/@ottermathtalks3601'
   discord = '#'   # TODO: real Discord invite
   github = 'https://github.com/ottermathtalks'
   signup = '#'    # TODO: Google Group join link

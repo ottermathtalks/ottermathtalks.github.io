@@ -46,7 +46,7 @@
       </li>
       {{ end }}
     </ul>
-    <p class="section-note" style="margin-top:1rem">{{ .Params.archive_note }}</p>
+    <p class="section-note" style="margin-top:1rem">{{ .Params.archive_note | markdownify }}</p>
   </section>
 </div>
 {{ end }}
