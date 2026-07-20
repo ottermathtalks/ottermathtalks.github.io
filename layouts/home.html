@@ -1,0 +1,46 @@
+{{ define "main" }}
+{{ $p := .Params }}
+<section class="hero">
+  <div class="container">
+    <p class="ribbon">{{ $p.ribbon }}</p>
+    <h1>{{ .Title }}</h1>
+    <p class="lede">{{ $p.lede }}</p>
+    <div class="cta-row">
+      <a class="btn" href="{{ .Site.Params.signup }}">{{ $p.cta_signup }}</a>
+      <a class="btn btn-ghost" href="{{ $p.cta_talks_url | relURL }}">{{ $p.cta_talks }}</a>
+    </div>
+    {{ with $p.notice }}<div class="notice">{{ . }}</div>{{ end }}
+  </div>
+</section>
+{{ partial "wave.html" . }}
+<section class="section section-mist">
+  <div class="container">
+    <h2 class="section-title">{{ $p.programs_title }}</h2>
+    <div class="card-grid">
+      {{ range $p.programs }}
+      <div class="card">
+        <h3>{{ .title }}</h3>
+        <p>{{ .text }}</p>
+        <a href="{{ .url | relURL }}">{{ .link }} →</a>
+      </div>
+      {{ end }}
+    </div>
+  </div>
+</section>
+<section class="section">
+  <div class="container">
+    <h2 class="section-title">{{ $p.next_title }}</h2>
+    <ul class="talk-list">
+      <li class="talk-row">
+        <span class="talk-when">{{ $p.next_when }}</span>
+        <div>
+          <p class="talk-title">{{ $p.next_talk }}</p>
+          <p class="talk-byline">{{ $p.next_note }}</p>
+        </div>
+        <span class="pill">{{ $p.next_pill }}</span>
+      </li>
+    </ul>
+    <p class="section-note" style="margin-top:1rem">{{ $p.next_footnote }}</p>
+  </div>
+</section>
+{{ end }}

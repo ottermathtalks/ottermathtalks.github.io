@@ -1,0 +1,30 @@
+{{ define "main" }}
+<div class="container">
+  <div class="page-head">
+    <a class="backlink" href="{{ .Parent.RelPermalink }}">← All talks</a>
+    <h1>{{ .Title }}{{ if .Params.sample }} <span class="pill pill-sample">sample entry</span>{{ end }}</h1>
+    <p class="byline">{{ .Params.speaker }}{{ with .Params.affiliation }} · {{ . }}{{ end }}</p>
+  </div>
+
+  <dl class="meta-grid">
+    <dt>Date</dt>
+    <dd>{{ .Date.Format "Monday, January 2, 2006" }}{{ with .Params.talk_time }} · {{ . }}{{ end }}</dd>
+    <dt>Where</dt>
+    <dd>{{ .Params.where | default "Zoom — the link goes out to the mailing list" }}</dd>
+    {{ with .Params.materials }}
+    <dt>Materials</dt>
+    <dd><a href="{{ . }}">Slides (PDF)</a></dd>
+    {{ end }}
+  </dl>
+
+  <h2>Abstract</h2>
+  <div class="prose">{{ .Content }}</div>
+
+  <h2>Recording</h2>
+  {{ with .Params.youtube_id }}
+  <div class="video-embed"><iframe src="https://www.youtube-nocookie.com/embed/{{ . }}" title="Talk recording" allowfullscreen></iframe></div>
+  {{ else }}
+  <div class="video-placeholder">Recording will appear here after the talk</div>
+  {{ end }}
+</div>
+{{ end }}

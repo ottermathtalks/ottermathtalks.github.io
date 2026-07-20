@@ -1,0 +1,22 @@
+<header class="site-header">
+  <div class="container">
+    <a class="brand" href="{{ "/" | relLangURL }}">
+      {{ partial "mark.html" (dict "class" "mark") }}
+      <span>
+        <span class="brand-name">OTTER</span><br>
+        <span class="brand-tag">Operator Theory Talks for Early Researchers</span>
+      </span>
+    </a>
+    <nav class="site-nav">
+      {{ $p := . }}
+      {{ range .Site.Menus.main }}
+        <a href="{{ .URL | relURL }}"{{ if hasPrefix $p.RelPermalink .URL }} class="active"{{ end }}>{{ .Name }}</a>
+      {{ end }}
+      {{ if eq .Language.Lang "en" }}
+        <a class="lang-chip" href="{{ "/es/" | relURL }}" lang="es">Español</a>
+      {{ else }}
+        <a class="lang-chip" href="{{ "/" | relURL }}" lang="en">English</a>
+      {{ end }}
+    </nav>
+  </div>
+</header>

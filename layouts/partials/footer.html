@@ -1,0 +1,22 @@
+<footer class="site-footer">
+  <div class="container">
+    <div>
+      {{ partial "mark.html" (dict "class" "mark") }}
+      <h4>OTTER</h4>
+      <p>Operator Theory Talks<br>for Early Researchers</p>
+    </div>
+    <div>
+      <h4>{{ if eq .Language.Lang "es" }}Contacto{{ else }}Contact{{ end }}</h4>
+      <p><a href="mailto:{{ .Site.Params.email }}">{{ .Site.Params.email }}</a></p>
+    </div>
+    <div>
+      <h4>{{ if eq .Language.Lang "es" }}Enlaces{{ else }}Links{{ end }}</h4>
+      <p>
+        <a href="{{ .Site.Params.youtube }}">YouTube</a> ·
+        <a href="{{ .Site.Params.discord }}">Discord</a> ·
+        <a href="{{ .Site.Params.github }}">GitHub</a>
+      </p>
+    </div>
+    <p class="footer-fine">Founded by Meric Augat, Christopher Felder, and Douglas Pfeffer · relaunched by a new organizing team in 2026. Prototype preview — entries marked “sample” are placeholder content.</p>
+  </div>
+</footer>

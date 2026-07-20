@@ -1,0 +1,20 @@
+{{ define "main" }}
+<div class="container">
+  <div class="page-head">
+    <h1>{{ .Title }}</h1>
+    <p class="byline">{{ .Params.intro }}</p>
+  </div>
+
+  {{ with index .RegularPages.ByDate.Reverse 0 }}
+  <div class="problem-card">
+    <p class="problem-label">{{ .Params.label }}{{ if .Params.sample }} · sample{{ end }}</p>
+    <div class="prose">{{ .Content }}</div>
+  </div>
+  {{ with .Params.deadline }}
+  <p class="section-note">Send your solution to <a href="mailto:{{ $.Site.Params.email }}">{{ $.Site.Params.email }}</a> by <strong>{{ . }}</strong>. Favorite solutions are featured — with your name — in the next issue of OTTER News.</p>
+  {{ end }}
+  {{ end }}
+
+  <p class="section-note" style="margin-top:2rem">{{ .Params.archive_note }}</p>
+</div>
+{{ end }}

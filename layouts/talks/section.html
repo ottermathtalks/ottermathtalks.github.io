@@ -1,0 +1,52 @@
+{{ define "main" }}
+{{ $now := now }}
+<div class="container">
+  <div class="page-head">
+    <h1>{{ .Title }}</h1>
+    <p class="byline">{{ .Params.intro }}</p>
+  </div>
+
+  <section class="section" style="padding-top:1.2rem">
+    <h2>{{ .Params.upcoming_title }}</h2>
+    <ul class="talk-list">
+      {{ range where .RegularPages "Date" "ge" $now }}
+      <li class="talk-row">
+        <span class="talk-when">{{ .Date.Format "Jan 2, 2006" }}</span>
+        <div>
+          <p class="talk-title"><a href="{{ .RelPermalink }}">{{ .Title }}</a></p>
+          <p class="talk-byline">{{ .Params.speaker }}{{ with .Params.affiliation }} ({{ . }}){{ end }}</p>
+        </div>
+        <span class="pill">upcoming</span>
+      </li>
+      {{ end }}
+      {{ range .Params.upcoming_tba }}
+      <li class="talk-row">
+        <span class="talk-when">{{ .when }}</span>
+        <div>
+          <p class="talk-title">{{ .title }}</p>
+          {{ with .note }}<p class="talk-byline">{{ . }}</p>{{ end }}
+        </div>
+        <span class="pill">upcoming</span>
+      </li>
+      {{ end }}
+    </ul>
+  </section>
+
+  <section class="section" style="padding-top:0">
+    <h2>{{ .Params.archive_title }}</h2>
+    <ul class="talk-list">
+      {{ range where .RegularPages "Date" "lt" $now }}
+      <li class="talk-row">
+        <span class="talk-when">{{ .Date.Format "Jan 2, 2006" }}</span>
+        <div>
+          <p class="talk-title"><a href="{{ .RelPermalink }}">{{ .Title }}</a></p>
+          <p class="talk-byline">{{ .Params.speaker }}{{ with .Params.affiliation }} ({{ . }}){{ end }}</p>
+        </div>
+        {{ if .Params.sample }}<span class="pill pill-sample">sample</span>{{ end }}
+      </li>
+      {{ end }}
+    </ul>
+    <p class="section-note" style="margin-top:1rem">{{ .Params.archive_note }}</p>
+  </section>
+</div>
+{{ end }}

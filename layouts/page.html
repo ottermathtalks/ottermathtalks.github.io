@@ -1,0 +1,7 @@
+{{ define "main" }}
+<div class="container">
+  <div class="page-head"><h1>{{ .Title }}</h1></div>
+  {{ with .Params.notice }}<div class="notice">{{ . }}</div>{{ end }}
+  <div class="prose">{{ .Content }}</div>
+</div>
+{{ end }}

@@ -1,0 +1,62 @@
+baseURL = 'https://ottermathtalks.github.io/'
+title = 'OTTER — Operator Theory Talks for Early Researchers'
+defaultContentLanguage = 'en'
+disableKinds = ['taxonomy', 'term', 'rss', 'sitemap']
+
+# Upcoming talks and the current problem are future-dated files; build them.
+buildFuture = true
+
+[languages]
+  [languages.en]
+    languageName = 'English'
+    weight = 1
+    contentDir = 'content/en'
+  [languages.es]
+    languageName = 'Español'
+    weight = 2
+    contentDir = 'content/es'
+
+[params]
+  email = 'ottermathtalks@gmail.com'
+  youtube = '#'   # TODO: real YouTube channel URL (from asset handoff)
+  discord = '#'   # TODO: real Discord invite
+  github = 'https://github.com/ottermathtalks'
+  signup = '#'    # TODO: Google Group join link
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.extensions]
+      [markup.goldmark.extensions.passthrough]
+        enable = true
+        [markup.goldmark.extensions.passthrough.delimiters]
+          block = [['$$', '$$'], ['\[', '\]']]
+          inline = [['\(', '\)']]
+
+[[languages.en.menus.main]]
+  name = 'Talks'
+  url = '/talks/'
+  weight = 10
+[[languages.en.menus.main]]
+  name = 'Calendar'
+  url = '/calendar/'
+  weight = 20
+[[languages.en.menus.main]]
+  name = 'Problem'
+  url = '/problems/'
+  weight = 30
+[[languages.en.menus.main]]
+  name = 'News'
+  url = '/news/'
+  weight = 40
+[[languages.en.menus.main]]
+  name = 'About'
+  url = '/about/'
+  weight = 50
+[[languages.en.menus.main]]
+  name = 'Get involved'
+  url = '/get-involved/'
+  weight = 60
+[[languages.en.menus.main]]
+  name = 'Resources'
+  url = '/resources/'
+  weight = 70
