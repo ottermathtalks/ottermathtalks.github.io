@@ -11,7 +11,7 @@ OTTER fue fundado por Meric Augat (James Madison University), Christopher Felder
 ## El equipo
 
 - [**Nic Berkopec**](https://bnic101.github.io) (Washington University in St. Louis) — organizador principal
-- **Enrique Díaz-Ocampo** (UAEM) — coorganizador; enlace con América Latina y la sección en español
+- [**Enrique Díaz-Ocampo**](https://enriquediazo.github.io) (UAEM) — coorganizador; enlace con América Latina y la sección en español
 - [**Vangmay Jayant**](https://people.clas.ufl.edu/vangmayjayant/) (University of Florida) — coorganizador
 - [**George Roman**](https://sites.google.com/view/george-roman/home) (University of Florida) — coorganizador
 - [**John E. McCarthy**](https://johnmccarthymath.com) (Washington University in St. Louis) — profesor asesor
