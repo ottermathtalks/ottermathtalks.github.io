@@ -12,11 +12,12 @@
       {{ range .Site.Menus.main }}
         <a href="{{ .URL | relURL }}"{{ if hasPrefix $p.RelPermalink .URL }} class="active"{{ end }}>{{ .Name }}</a>
       {{ end }}
-      {{ if eq .Language.Lang "en" }}
-        <a class="lang-chip" href="{{ "/es/" | relURL }}" lang="es">Español</a>
-      {{ else }}
-        <a class="lang-chip" href="{{ "/" | relURL }}" lang="en">English</a>
-      {{ end }}
+      {{/* Language switcher: link to this page's translation; fall back to the other language's home. */}}
+      {{ $other := cond (eq .Language.Lang "en") "es" "en" }}
+      {{ $label := cond (eq .Language.Lang "en") "Español" "English" }}
+      {{ $target := cond (eq .Language.Lang "en") ("/es/" | relURL) ("/" | relURL) }}
+      {{ range .Translations }}{{ if eq .Language.Lang $other }}{{ $target = .RelPermalink }}{{ end }}{{ end }}
+      <a class="lang-chip" href="{{ $target }}" lang="{{ $other }}">{{ $label }}</a>
     </nav>
   </div>
 </header>

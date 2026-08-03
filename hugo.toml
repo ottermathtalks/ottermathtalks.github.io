@@ -79,5 +79,5 @@ buildFuture = true
   weight = 50
 [[languages.es.menus.main]]
   name = 'Recursos'
-  url = '/resources/'
+  url = '/es/resources/'
   weight = 70
