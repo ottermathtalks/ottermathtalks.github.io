@@ -1,0 +1,1 @@
+<a class="btn" href="{{ .Get "href" }}">{{ with .Get "text" }}{{ . }}{{ else }}{{ .Inner }}{{ end }}</a>

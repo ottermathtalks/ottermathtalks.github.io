@@ -21,7 +21,7 @@ buildFuture = true
   youtube = 'https://www.youtube.com/@ottermathtalks3601'
   discord = '#'   # TODO: real Discord invite
   github = 'https://github.com/ottermathtalks'
-  signup = '#'    # TODO: Google Group join link
+  signup = 'https://groups.google.com/g/ottermathtalks'
 
 [markup]
   [markup.goldmark]
