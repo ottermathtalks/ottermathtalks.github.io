@@ -6,6 +6,8 @@
     <p class="byline">{{ .Params.intro }}</p>
   </div>
 
+  {{ with .Content }}<div class="prose" style="margin-top:.4rem">{{ . }}</div>{{ end }}
+
   <section class="section" style="padding-top:1.2rem">
     <h2>{{ .Params.upcoming_title }}</h2>
     <ul class="talk-list">
