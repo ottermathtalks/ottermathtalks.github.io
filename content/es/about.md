@@ -6,7 +6,7 @@ OTTER — **Operator Theory Talks for Early Researchers** (charlas de teoría de
 
 ## Continuidad
 
-OTTER fue fundado por Meric Augat (James Madison University), Christopher Felder (University of South Florida) y Douglas Pfeffer (University of Tampa), quienes construyeron su ciclo de charlas, su comunidad de Discord y sus encuentros en congresos. Un nuevo equipo relanza OTTER en el otoño de 2026 — mismo nombre, misma misión, misma estructura.
+OTTER fue fundado por Meric Augat (James Madison University), Christopher Felder (University of South Florida) y Douglas Pfeffer (University of Tampa), quienes construyeron su ciclo de charlas, su comunidad en línea y sus encuentros en congresos. Un nuevo equipo relanza OTTER en el otoño de 2026 — mismo nombre, misma misión, misma estructura.
 
 ## El equipo
 
