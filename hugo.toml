@@ -51,6 +51,10 @@ buildFuture = true
   url = '/about/'
   weight = 50
 [[languages.en.menus.main]]
+  name = 'History'
+  url = '/history/'
+  weight = 55
+[[languages.en.menus.main]]
   name = 'Resources'
   url = '/resources/'
   weight = 70
@@ -75,6 +79,10 @@ buildFuture = true
   name = 'Nosotros'
   url = '/es/about/'
   weight = 50
+[[languages.es.menus.main]]
+  name = 'Historia'
+  url = '/es/history/'
+  weight = 55
 [[languages.es.menus.main]]
   name = 'Recursos'
   url = '/es/resources/'
