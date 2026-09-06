@@ -136,6 +136,8 @@ a:hover { color: var(--river-dark); }
 .prose { max-width: 68ch; }
 .prose p { margin: 0 0 .9em; }
 .prose ul { padding-left: 1.2em; }
+.prose blockquote { margin: 1.1rem 0; padding: .15rem 0 .15rem 1.1rem; border-left: 3px solid var(--line); color: var(--muted); }
+.prose blockquote p { margin: 0; }
 .prose li { margin-bottom: .35em; }
 .prose .katex { font-size: 1.06em; }
 

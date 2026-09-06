@@ -16,6 +16,6 @@
         <a href="{{ "/get-involved/" | relLangURL }}">{{ if eq .Language.Lang "es" }}Participa{{ else }}Get involved{{ end }}</a>
       </p>
     </div>
-    <p class="footer-fine">Founded by Meric Augat, Christopher Felder, and Douglas Pfeffer · relaunched by a new organizing team in 2026. Prototype preview — entries marked “sample” are placeholder content.</p>
+    <p class="footer-fine">{{ if eq .Language.Lang "es" }}Fundado en 2020 por Meredith Sargent, Douglas Pfeffer, Meric Augat y Christopher Felder · relanzado por un nuevo equipo organizador en 2026.{{ else }}Founded in 2020 by Meredith Sargent, Douglas Pfeffer, Meric Augat, and Christopher Felder · relaunched by a new organizing team in 2026.{{ end }}</p>
   </div>
 </footer>
