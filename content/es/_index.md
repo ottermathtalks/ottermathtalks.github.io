@@ -1,7 +1,7 @@
 ---
 title: "Charlas de teoría de operadores para investigadores jóvenes"
 ribbon: "Relanzamiento otoño 2026 · primera charla en octubre"
-lede: "OTTER conecta a estudiantes de posgrado, posdocs e investigadores jóvenes en teoría de operadores y análisis complejo — sobre todo a quienes son la única persona de su departamento trabajando en el área."
+lede: "OTTER conecta a estudiantes de posgrado, posdocs e investigadores jóvenes en teoría de operadores y análisis complejo."
 notice: "Sección en español en revisión — las traducciones serán revisadas por Enrique Díaz-Ocampo. El archivo de charlas y los recursos están, por ahora, en inglés."
 cta_signup: "Únete a la lista de correo"
 cta_talks: "Ver las próximas charlas"

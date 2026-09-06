@@ -1,7 +1,7 @@
 ---
 title: "Operator theory talks for early researchers"
 ribbon: "Relaunching fall 2026 · first talk in October"
-lede: "OTTER connects graduate students, postdocs, and early-career researchers in operator theory and complex analysis — especially the ones who are the only person in their department working in the field."
+lede: "OTTER connects graduate students, postdocs, and early-career researchers in operator theory and complex analysis."
 cta_signup: "Join the mailing list"
 cta_talks: "See upcoming talks"
 cta_talks_url: "/talks/"
