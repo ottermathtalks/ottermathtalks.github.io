@@ -2,7 +2,7 @@
 title: "About OTTER"
 ---
 
-OTTER — **Operator Theory Talks for Early Researchers** — connects early-career researchers in operator theory and complex analysis: graduate students, postdocs, and visiting faculty, often the only person in their department working in the area. Function-theoretic operator theory is the main focus, though the scope is broad.
+OTTER — **Operator Theory Talks for Early Researchers** — connects early-career researchers in operator theory and complex analysis: graduate students, postdocs, and visiting faculty. Function-theoretic operator theory is the main focus, though the scope is broad.
 
 ## Continuity
 

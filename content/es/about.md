@@ -2,7 +2,7 @@
 title: "Sobre OTTER"
 ---
 
-OTTER — **Operator Theory Talks for Early Researchers** (charlas de teoría de operadores para investigadores jóvenes) — conecta a investigadores que inician su carrera en teoría de operadores y análisis complejo: estudiantes de posgrado, posdocs y profesores visitantes, muchas veces la única persona de su departamento trabajando en el área. El enfoque principal es la teoría de operadores ligada a la teoría de funciones, aunque el alcance es amplio.
+OTTER — **Operator Theory Talks for Early Researchers** (charlas de teoría de operadores para investigadores jóvenes) — conecta a investigadores que inician su carrera en teoría de operadores y análisis complejo: estudiantes de posgrado, posdocs y profesores visitantes. El enfoque principal es la teoría de operadores ligada a la teoría de funciones, aunque el alcance es amplio.
 
 ## Continuidad
 
