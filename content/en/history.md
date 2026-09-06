@@ -10,4 +10,4 @@ The response was massive, and the entire community supported the development of 
 
 Eventually, as we moved into 2023, interest in online communities waned as the world had confidently recovered from the COVID shock. Many members of the community had secured permanent academic positions, and, importantly, its organizers found themselves unable to properly maintain the community alongside their newfound professional responsibilities. As a result, OTTER went dormant for a short while, until a new group of academics might assume the mantle and continue to foster OTTER's success in providing a high-quality, high-impact community to those who need it most: early-career researchers.
 
-In 2026, a new organizing team took up that mantle — same name, same mission, same structure. The current team is on the [About](/about/) page, and the recordings from the original series live on in the [talk archive](/talks/).
+In 2026, a new organizing team took up that mantle. The current team is on the [About](/about/) page, and the recordings from the original series live on in the [talk archive](/talks/).

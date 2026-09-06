@@ -10,4 +10,4 @@ La respuesta fue enorme, y toda la comunidad apoyó la creación de un grupo as�
 
 Con la llegada de 2023, el interés por las comunidades en línea decayó a medida que el mundo se recuperaba con confianza del golpe de la COVID. Muchos miembros de la comunidad habían conseguido posiciones académicas permanentes y, sobre todo, sus organizadores ya no podían mantener la comunidad junto con sus nuevas responsabilidades profesionales. OTTER quedó en pausa por un tiempo, hasta que un nuevo grupo de académicos asumiera el relevo y continuara ofreciendo una comunidad de alta calidad y alto impacto a quienes más la necesitan: los investigadores que inician su carrera.
 
-En 2026, un nuevo equipo organizador tomó ese relevo — mismo nombre, misma misión, misma estructura. El equipo actual está en la página [Nosotros](/es/about/), y las grabaciones de la etapa original viven en el [archivo de charlas](/talks/).
+En 2026, un nuevo equipo organizador tomó ese relevo. El equipo actual está en la página [Nosotros](/es/about/), y las grabaciones de la etapa original viven en el [archivo de charlas](/talks/).
