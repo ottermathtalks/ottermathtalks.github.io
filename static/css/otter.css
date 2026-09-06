@@ -46,7 +46,7 @@ a:hover { color: var(--river-dark); }
 }
 .brand { display: flex; align-items: center; gap: .65rem; text-decoration: none; color: var(--ink); }
 .brand:hover { color: var(--ink); }
-.brand .mark { width: 40px; height: 40px; color: var(--river); flex: none; }
+.brand .mark { height: 34px; width: auto; flex: none; }
 .brand-name { font-family: var(--serif); font-size: 1.45rem; font-weight: 700; letter-spacing: .02em; line-height: 1.1; }
 .brand-tag { font-size: .68rem; text-transform: uppercase; letter-spacing: .09em; color: var(--muted); }
 .site-nav { display: flex; align-items: center; gap: 1.05rem; flex-wrap: wrap; }
@@ -138,6 +138,9 @@ a:hover { color: var(--river-dark); }
 .prose ul { padding-left: 1.2em; }
 .prose blockquote { margin: 1.1rem 0; padding: .15rem 0 .15rem 1.1rem; border-left: 3px solid var(--line); color: var(--muted); }
 .prose blockquote p { margin: 0; }
+.prose figure { margin: 1.6rem 0; }
+.prose figure img { border-radius: 12px; border: 1px solid var(--line); }
+.prose figcaption { font-size: .85rem; color: var(--muted); margin-top: .5rem; }
 .prose li { margin-bottom: .35em; }
 .prose .katex { font-size: 1.06em; }
 
@@ -169,7 +172,7 @@ a:hover { color: var(--river-dark); }
 /* ---------- footer ---------- */
 .site-footer { background: var(--footer); color: #cfe0dd; margin-top: 3.5rem; padding: 2.4rem 0 2rem; font-size: .92rem; }
 .site-footer .container { display: flex; flex-wrap: wrap; gap: 2rem; justify-content: space-between; }
-.site-footer .mark { width: 34px; height: 34px; color: #9fc4bd; }
+.site-footer .mark { height: 26px; width: auto; }
 .site-footer h4 { font-family: var(--serif); color: #fff; margin: 0 0 .4rem; font-size: 1.05rem; }
 .site-footer a { color: #e6f1ee; }
 .site-footer a:hover { color: #fff; }

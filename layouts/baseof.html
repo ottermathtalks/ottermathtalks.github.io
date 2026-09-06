@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }} · OTTER{{ end }}</title>
 <meta name="description" content="OTTER — Operator Theory Talks for Early Researchers: a community for early-career researchers in operator theory and complex analysis.">
+<link rel="icon" type="image/png" href="{{ "images/otter-mark.png" | relURL }}">
 <link rel="stylesheet" href="{{ "css/otter.css" | relURL }}">
 {{ if .Param "math" }}{{ partial "katex.html" . }}{{ end }}
 </head>
