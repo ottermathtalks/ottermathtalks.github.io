@@ -12,7 +12,7 @@ programs:
     link: "Talks"
     url: "/talks/"
   - title: "Monthly problem"
-    text: "One problem a month at early-graduate level. Featured solutions appear, with credit, in OTTER News."
+    text: "One problem a month at early-graduate level."
     link: "This month's problem"
     url: "/problems/"
   - title: "OTTER News"

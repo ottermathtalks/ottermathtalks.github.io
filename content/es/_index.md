@@ -13,7 +13,7 @@ programs:
     link: "Charlas"
     url: "/es/talks/"
   - title: "Problema del mes"
-    text: "Un problema mensual de nivel de posgrado temprano. Las soluciones destacadas aparecen, con crédito, en OTTER News."
+    text: "Un problema mensual de nivel de posgrado temprano."
     link: "El problema"
     url: "/es/problems/"
   - title: "OTTER News"
