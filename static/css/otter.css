@@ -171,6 +171,36 @@ a:hover { color: var(--river-dark); }
   letter-spacing: .08em; color: var(--amber); margin-bottom: .5rem;
 }
 
+/* ---------- calendar grid ---------- */
+.cal-month { margin: 0 0 2.4rem; }
+.cal-month h2 { margin-bottom: .7rem; }
+.cal { display: grid; grid-template-columns: repeat(7, 1fr); gap: 4px; }
+.cal-head {
+  font-size: .72rem; font-weight: 600; text-transform: uppercase;
+  letter-spacing: .06em; color: var(--muted); padding: .2rem .35rem;
+}
+.cal-cell {
+  background: var(--card); border: 1px solid var(--line); border-radius: 8px;
+  min-height: 64px; padding: .3rem .4rem;
+}
+.cal-empty { background: transparent; border-color: transparent; }
+.cal-daynum { font-size: .78rem; color: var(--muted); font-family: var(--serif); }
+.cal-cell.has-event { background: var(--mist); border-color: var(--river); }
+.cal-event {
+  display: block; margin-top: .25rem; font-size: .72rem; line-height: 1.25;
+  font-weight: 600; color: #fff !important; background: var(--river);
+  border-radius: 6px; padding: .2rem .35rem; text-decoration: none;
+  overflow-wrap: break-word;
+}
+.cal-event:hover { background: var(--river-dark); }
+.cal-tba { margin: .6rem 0 0; font-size: .92rem; color: var(--muted); }
+
+@media (max-width: 720px) {
+  .cal { gap: 2px; }
+  .cal-cell { min-height: 48px; padding: .2rem .25rem; border-radius: 6px; }
+  .cal-event { font-size: .58rem; padding: .15rem .25rem; }
+}
+
 /* ---------- notices ---------- */
 .notice {
   background: var(--amber-soft); border-radius: 10px; padding: .7rem 1rem;

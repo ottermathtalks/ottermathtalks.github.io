@@ -6,6 +6,16 @@ disableKinds = ['taxonomy', 'term', 'rss', 'sitemap']
 # Upcoming talks and the current problem are future-dated files; build them.
 buildFuture = true
 
+# The subscribable calendar feed at /otter.ics, generated from data/events.yaml.
+[mediaTypes."text/calendar"]
+  suffixes = ["ics"]
+[outputFormats.ICS]
+  mediaType = "text/calendar"
+  baseName = "otter"
+  isPlainText = true
+[outputs]
+  home = ["HTML", "ICS"]
+
 [languages]
   [languages.en]
     languageName = 'English'

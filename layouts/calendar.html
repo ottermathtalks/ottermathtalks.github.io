@@ -1,0 +1,51 @@
+{{ define "main" }}
+<div class="container">
+  <div class="page-head"><h1>{{ .Title }}</h1></div>
+
+  {{ $page := . }}
+  {{ $lang := .Language.Lang }}
+  {{ $months := slice }}
+  {{ range site.Data.events }}
+    {{ $m := "" }}
+    {{ with .date }}{{ $m = substr . 0 7 }}{{ end }}
+    {{ with .month }}{{ $m = . }}{{ end }}
+    {{ if and $m (not (in $months $m)) }}{{ $months = $months | append $m }}{{ end }}
+  {{ end }}
+
+  {{ range sort $months }}
+    {{ $mstr := . }}
+    {{ $first := time (printf "%s-01" $mstr) }}
+    {{ $daysIn := ($first.AddDate 0 1 -1).Day }}
+    {{ $offset := index (dict "Sunday" 0 "Monday" 1 "Tuesday" 2 "Wednesday" 3 "Thursday" 4 "Friday" 5 "Saturday" 6) (printf "%s" $first.Weekday) }}
+    <section class="cal-month">
+      <h2>{{ $first | time.Format "January 2006" }}</h2>
+      <div class="cal">
+        {{ range $page.Params.weekdays }}<div class="cal-head">{{ . }}</div>{{ end }}
+        {{ if gt $offset 0 }}{{ range seq $offset }}<div class="cal-cell cal-empty"></div>{{ end }}{{ end }}
+        {{ range $d := seq $daysIn }}
+          {{ $dstr := printf "%s-%02d" $mstr $d }}
+          {{ $todays := slice }}
+          {{ range site.Data.events }}{{ if eq (.date | default "") $dstr }}{{ $todays = $todays | append . }}{{ end }}{{ end }}
+          <div class="cal-cell{{ if $todays }} has-event{{ end }}">
+            <span class="cal-daynum">{{ $d }}</span>
+            {{ range $todays }}
+              {{ $title := .title }}
+              {{ if and (eq $lang "es") .title_es }}{{ $title = .title_es }}{{ end }}
+              <a class="cal-event" href="{{ .url | relLangURL }}" title="{{ $title }}">{{ $title }}</a>
+            {{ end }}
+          </div>
+        {{ end }}
+      </div>
+      {{ range site.Data.events }}
+        {{ if eq (.month | default "") $mstr }}
+          {{ $title := .title }}
+          {{ if and (eq $lang "es") .title_es }}{{ $title = .title_es }}{{ end }}
+          <p class="cal-tba">{{ $page.Params.also_label }} <a href="{{ .url | relLangURL }}">{{ $title }}</a></p>
+        {{ end }}
+      {{ end }}
+    </section>
+  {{ end }}
+
+  <div class="prose">{{ .Content }}</div>
+</div>
+{{ end }}

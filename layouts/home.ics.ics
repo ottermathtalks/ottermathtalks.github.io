@@ -1,0 +1,7 @@
+{{- printf "BEGIN:VCALENDAR\r\nVERSION:2.0\r\nPRODID:-//OTTER//Talks//EN\r\nCALSCALE:GREGORIAN\r\nMETHOD:PUBLISH\r\nX-WR-CALNAME:OTTER Talks\r\n" -}}
+{{- range site.Data.events }}{{ if .date }}
+{{- $t := time .date }}
+{{- $summary := replace .title "," "\\," }}
+{{- printf "BEGIN:VEVENT\r\nUID:%s-%s@ottermathtalks.github.io\r\nDTSTAMP:%sT000000Z\r\nDTSTART;VALUE=DATE:%s\r\nDTEND;VALUE=DATE:%s\r\nSUMMARY:OTTER — %s\r\nURL:https://ottermathtalks.github.io/talks/\r\nEND:VEVENT\r\n" .date (urlize .title) ($t.Format "20060102") ($t.Format "20060102") (($t.AddDate 0 0 1).Format "20060102") $summary -}}
+{{- end }}{{ end -}}
+{{- printf "END:VCALENDAR\r\n" -}}

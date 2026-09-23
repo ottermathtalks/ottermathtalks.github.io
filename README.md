@@ -9,7 +9,7 @@ Everything routine is a markdown file under `content/`:
 - **Add a talk** → `content/en/talks/YYYY-MM-DD-lastname.md` — see [HOW-TO-ADD-A-TALK.md](HOW-TO-ADD-A-TALK.md), it takes under 10 minutes.
 - **Add a problem** → `content/en/problems/YYYY-MM-slug.md` (same front-matter pattern).
 - **Edit a page** → the matching file in `content/en/` (English) or `content/es/` (Spanish).
-- **Add a calendar event** → append a `VEVENT` block to `static/otter.ics` (copy the existing one; keep the CRLF line endings and bump `DTSTAMP`). Subscribers' apps pick it up automatically.
+- **Add a calendar event** → one entry in `data/events.yaml`. That single file drives both the visual calendar on `/calendar/` and the subscribable `/otter.ics` feed (a `date:` entry gets a day cell and a feed event; a `month:` entry is listed as TBA until its date is set).
 
 Talks and problems sort themselves by date: future dates appear as upcoming, past dates in the archive. You never touch layout code for monthly content.
 

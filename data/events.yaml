@@ -1,0 +1,19 @@
+# One entry per event. Dated events get a day cell in the calendar grid
+# AND a VEVENT in the /otter.ics feed. Month-only events ("month:") are
+# listed under that month's grid until their date is confirmed.
+- date: "2026-10-16"
+  title: "Canon talk: John E. McCarthy"
+  title_es: "Charla canónica: John E. McCarthy"
+  url: /talks/
+- month: "2026-10"
+  title: "Live session: one short talk (speaker TBA)"
+  title_es: "Sesión en vivo: una charla corta (ponente por anunciar)"
+  url: /talks/
+- month: "2026-11"
+  title: "Canon talk: Michael Hartz (date TBA)"
+  title_es: "Charla canónica: Michael Hartz (fecha por anunciar)"
+  url: /talks/
+- month: "2026-12"
+  title: "Canon talk: Orr Shalit (date TBA)"
+  title_es: "Charla canónica: Orr Shalit (fecha por anunciar)"
+  url: /talks/
