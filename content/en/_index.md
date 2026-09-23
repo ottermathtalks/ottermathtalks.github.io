@@ -1,6 +1,6 @@
 ---
 title: "Operator theory talks for early researchers"
-ribbon: "Relaunching fall 2026 · first talk in October"
+ribbon: "Relaunching fall 2026 · first talk October 16"
 lede: "OTTER connects graduate students, postdocs, and early-career researchers in operator theory and complex analysis."
 cta_signup: "Join the mailing list"
 cta_talks: "See upcoming talks"
@@ -24,9 +24,9 @@ programs:
     link: "Get involved"
     url: "/get-involved/"
 next_title: "Next up"
-next_when: "October 2026"
-next_talk: "Talks return: first canon talk + first live session"
-next_note: "Speakers announced in the September issue of OTTER News."
+next_when: "Oct 16, 2026"
+next_talk: "John E. McCarthy opens the relaunched talk series"
+next_note: "First canon talk. Michael Hartz follows in November, Orr Shalit in December."
 next_pill: "upcoming"
 next_footnote: "Sign up and the Zoom link lands in your inbox the week of each talk."
 ---

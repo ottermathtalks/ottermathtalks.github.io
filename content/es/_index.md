@@ -1,6 +1,6 @@
 ---
 title: "Charlas de teoría de operadores para investigadores jóvenes"
-ribbon: "Relanzamiento otoño 2026 · primera charla en octubre"
+ribbon: "Relanzamiento otoño 2026 · primera charla el 16 de octubre"
 lede: "OTTER conecta a estudiantes de posgrado, posdocs e investigadores jóvenes en teoría de operadores y análisis complejo."
 notice: "Sección en español en revisión — las traducciones serán revisadas por Enrique Díaz-Ocampo. El archivo de charlas y los recursos están, por ahora, en inglés."
 cta_signup: "Únete a la lista de correo"
@@ -25,9 +25,9 @@ programs:
     link: "Participa"
     url: "/es/get-involved/"
 next_title: "Próximamente"
-next_when: "Octubre 2026"
-next_talk: "Regresan las charlas: primera charla canónica + primera sesión en vivo"
-next_note: "Ponentes anunciados en el número de septiembre de OTTER News."
+next_when: "16 oct 2026"
+next_talk: "John E. McCarthy abre el ciclo relanzado de charlas"
+next_note: "Primera charla canónica. Le siguen Michael Hartz en noviembre y Orr Shalit en diciembre."
 next_pill: "próxima"
 next_footnote: "Suscríbete y el enlace de Zoom llega a tu correo la semana de cada charla."
 ---
