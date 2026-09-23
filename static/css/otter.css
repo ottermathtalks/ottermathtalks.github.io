@@ -174,6 +174,14 @@ a:hover { color: var(--river-dark); }
 /* ---------- calendar grid ---------- */
 .cal-month { margin: 0 0 2.4rem; }
 .cal-month h2 { margin-bottom: .7rem; }
+.cal-monthbar { display: flex; align-items: center; justify-content: space-between; gap: 1rem; margin-bottom: .7rem; }
+.cal-monthbar h2 { margin: 0; }
+.cal-arrow {
+  border: 1px solid var(--line); background: var(--card); color: var(--river);
+  border-radius: 8px; padding: .3rem .75rem; font-size: 1.05rem; cursor: pointer;
+}
+.cal-arrow:hover:not(:disabled) { border-color: var(--river); }
+.cal-arrow:disabled { opacity: .35; cursor: default; }
 .cal { display: grid; grid-template-columns: repeat(7, 1fr); gap: 4px; }
 .cal-head {
   font-size: .72rem; font-weight: 600; text-transform: uppercase;

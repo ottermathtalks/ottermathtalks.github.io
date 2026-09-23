@@ -3,6 +3,8 @@ title: "Calendar"
 layout: "calendar"
 weekdays: ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"]
 also_label: "This month, date to be announced:"
+prev_label: "Previous month"
+next_label: "Next month"
 ---
 
 ## Subscribe

@@ -3,6 +3,8 @@ title: "Calendario"
 layout: "calendar"
 weekdays: ["dom", "lun", "mar", "mié", "jue", "vie", "sáb"]
 also_label: "Este mes, fecha por anunciar:"
+prev_label: "Mes anterior"
+next_label: "Mes siguiente"
 ---
 
 ## Suscríbete

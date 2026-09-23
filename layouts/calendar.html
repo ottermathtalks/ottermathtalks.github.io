@@ -17,8 +17,12 @@
     {{ $first := time (printf "%s-01" $mstr) }}
     {{ $daysIn := ($first.AddDate 0 1 -1).Day }}
     {{ $offset := index (dict "Sunday" 0 "Monday" 1 "Tuesday" 2 "Wednesday" 3 "Thursday" 4 "Friday" 5 "Saturday" 6) (printf "%s" $first.Weekday) }}
-    <section class="cal-month">
-      <h2>{{ $first | time.Format "January 2006" }}</h2>
+    <section class="cal-month" data-month="{{ $mstr }}">
+      <div class="cal-monthbar">
+        <button class="cal-arrow" data-dir="-1" aria-label="{{ $page.Params.prev_label }}" hidden>←</button>
+        <h2>{{ $first | time.Format "January 2006" }}</h2>
+        <button class="cal-arrow" data-dir="1" aria-label="{{ $page.Params.next_label }}" hidden>→</button>
+      </div>
       <div class="cal">
         {{ range $page.Params.weekdays }}<div class="cal-head">{{ . }}</div>{{ end }}
         {{ if gt $offset 0 }}{{ range seq $offset }}<div class="cal-cell cal-empty"></div>{{ end }}{{ end }}
@@ -48,4 +52,27 @@
 
   <div class="prose">{{ .Content }}</div>
 </div>
+<script>
+(function () {
+  var secs = Array.prototype.slice.call(document.querySelectorAll('.cal-month'));
+  if (secs.length < 2) return;
+  var arrows = Array.prototype.slice.call(document.querySelectorAll('.cal-arrow'));
+  arrows.forEach(function (b) { b.hidden = false; });
+  var now = new Date();
+  var cur = now.getFullYear() + '-' + String(now.getMonth() + 1).padStart(2, '0');
+  var idx = secs.findIndex(function (s) { return s.dataset.month >= cur; });
+  if (idx < 0) idx = secs.length - 1;
+  function show(i) {
+    idx = Math.max(0, Math.min(secs.length - 1, i));
+    secs.forEach(function (s, j) { s.hidden = j !== idx; });
+    arrows.forEach(function (b) {
+      b.disabled = (b.dataset.dir === '-1' && idx === 0) || (b.dataset.dir === '1' && idx === secs.length - 1);
+    });
+  }
+  arrows.forEach(function (b) {
+    b.addEventListener('click', function () { show(idx + Number(b.dataset.dir)); });
+  });
+  show(idx);
+})();
+</script>
 {{ end }}
