@@ -9,7 +9,7 @@ next_label: "Mes siguiente"
 
 ## Suscríbete
 
-Recibe todos los eventos de OTTER en tu propia aplicación de calendario — te suscribes una vez y las nuevas charlas, fechas límite del problema y encuentros aparecen automáticamente. La dirección del canal es:
+Recibe todos los eventos de OTTER en tu propia aplicación de calendario — te suscribes una vez y las nuevas charlas y encuentros aparecen automáticamente. La dirección del canal es:
 
 ```
 https://ottermathtalks.github.io/otter.ics

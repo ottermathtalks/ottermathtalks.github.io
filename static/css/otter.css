@@ -161,16 +161,6 @@ a:hover { color: var(--river-dark); }
 .video-embed { aspect-ratio: 16 / 9; max-width: 640px; margin: 1.2rem 0; }
 .video-embed iframe { width: 100%; height: 100%; border: 0; border-radius: 12px; }
 
-/* ---------- problem ---------- */
-.problem-card {
-  background: var(--card); border: 1px solid var(--line); border-left: 4px solid var(--amber);
-  border-radius: 12px; padding: 1.4rem 1.5rem; margin: 1.4rem 0; max-width: 72ch;
-}
-.problem-card .problem-label {
-  font-size: .8rem; font-weight: 600; text-transform: uppercase;
-  letter-spacing: .08em; color: var(--amber); margin-bottom: .5rem;
-}
-
 /* ---------- calendar grid ---------- */
 .cal-month { margin: 0 0 2.4rem; }
 .cal-month h2 { margin-bottom: .7rem; }

@@ -49,10 +49,6 @@ buildFuture = true
   url = '/calendar/'
   weight = 20
 [[languages.en.menus.main]]
-  name = 'Problem'
-  url = '/problems/'
-  weight = 30
-[[languages.en.menus.main]]
   name = 'News'
   url = '/news/'
   weight = 40
@@ -77,10 +73,6 @@ buildFuture = true
   name = 'Calendario'
   url = '/es/calendar/'
   weight = 20
-[[languages.es.menus.main]]
-  name = 'Problema'
-  url = '/es/problems/'
-  weight = 30
 [[languages.es.menus.main]]
   name = 'Noticias'
   url = '/es/news/'

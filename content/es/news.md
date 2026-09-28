@@ -3,7 +3,7 @@ title: "OTTER News"
 notice: "El primer número llega en septiembre de 2026, con el anuncio del relanzamiento."
 ---
 
-Un boletín mensual para la comunidad de OTTER: eventos, entrevistas a miembros, notas de congresos y soluciones del problema del mes.
+Un boletín mensual para la comunidad de OTTER: eventos, entrevistas a miembros y notas de congresos.
 
 ## Suscríbete
 

@@ -9,7 +9,7 @@ next_label: "Next month"
 
 ## Subscribe
 
-Get every OTTER event in your own calendar app — subscribe once and new talks, problem deadlines, and meet-ups appear automatically. The feed address is:
+Get every OTTER event in your own calendar app — subscribe once and new talks and meet-ups appear automatically. The feed address is:
 
 ```
 https://ottermathtalks.github.io/otter.ics
