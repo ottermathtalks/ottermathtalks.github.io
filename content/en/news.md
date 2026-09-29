@@ -1,6 +1,5 @@
 ---
 title: "OTTER News"
-notice: "The first issue arrives September 2026, with the relaunch announcement."
 ---
 
 A monthly newsletter for the OTTER community: events, member spotlights, and conference notes.
@@ -15,4 +14,4 @@ No Google account? From any email address, send a blank email to [ottermathtalks
 
 ## Issues
 
-The archive begins with issue #1 in September 2026.
+The archive will appear here with the first issue.
