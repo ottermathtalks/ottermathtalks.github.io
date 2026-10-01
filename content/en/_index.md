@@ -5,7 +5,7 @@ lede: "OTTER connects graduate students, postdocs, and early-career researchers 
 cta_signup: "Join the mailing list"
 cta_talks: "See upcoming talks"
 cta_talks_url: "/talks/"
-signup_alt: "No Google account? Send a blank email to [ottermathtalks+subscribe@googlegroups.com](mailto:ottermathtalks+subscribe@googlegroups.com) and reply to the confirmation that comes back."
+signup_alt: "No Google account? Send a blank email to [ottermathtalks+subscribe@googlegroups.com](mailto:ottermathtalks+subscribe@googlegroups.com) and reply to the confirmation that comes back. You may need to check your spam or promotions folder."
 programs_title: "What OTTER does"
 programs:
   - title: "Talk series"

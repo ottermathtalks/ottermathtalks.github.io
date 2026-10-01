@@ -6,7 +6,7 @@ notice: "Sección en español en revisión — las traducciones serán revisadas
 cta_signup: "Únete a la lista de correo"
 cta_talks: "Ver las próximas charlas"
 cta_talks_url: "/es/talks/"
-signup_alt: "¿Sin cuenta de Google? Envía un mensaje vacío a [ottermathtalks+subscribe@googlegroups.com](mailto:ottermathtalks+subscribe@googlegroups.com) y responde a la confirmación que recibirás."
+signup_alt: "¿Sin cuenta de Google? Envía un mensaje vacío a [ottermathtalks+subscribe@googlegroups.com](mailto:ottermathtalks+subscribe@googlegroups.com) y responde a la confirmación que recibirás. Quizá tengas que revisar tu carpeta de spam o promociones."
 programs_title: "Qué hace OTTER"
 programs:
   - title: "Ciclo de charlas"
