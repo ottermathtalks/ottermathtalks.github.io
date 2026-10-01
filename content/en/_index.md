@@ -22,7 +22,7 @@ programs:
 next_title: "Next up"
 next_when: "Oct 16, 2026"
 next_talk: "John E. McCarthy opens the relaunched talk series"
-next_note: "First canon talk. Michael Hartz follows in November, Orr Shalit in December."
+next_note: "First canon talk, 10:00 am Central (15:00 UTC). Michael Hartz follows in November, Orr Shalit in December."
 next_pill: "upcoming"
 next_footnote: "Sign up and the Zoom link lands in your inbox the week of each talk."
 ---

@@ -1,9 +1,13 @@
 # One entry per event. Dated events get a day cell in the calendar grid
 # AND a VEVENT in the /otter.ics feed. Month-only events ("month:") are
 # listed under that month's grid until their date is confirmed.
+# Timed events: add start_utc AND end_utc ("YYYYMMDDTHHMMSSZ"); without
+# them the feed event is all-day.
 - date: "2026-10-16"
   title: "Canon talk: John E. McCarthy"
   title_es: "Charla canónica: John E. McCarthy"
+  start_utc: "20261016T150000Z"
+  end_utc: "20261016T160000Z"
   url: /talks/
 - month: "2026-10"
   title: "Live session: one short talk (speaker TBA)"

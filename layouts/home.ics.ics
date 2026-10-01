@@ -2,6 +2,11 @@
 {{- range site.Data.events }}{{ if .date }}
 {{- $t := time .date }}
 {{- $summary := replace .title "," "\\," }}
-{{- printf "BEGIN:VEVENT\r\nUID:%s-%s@ottermathtalks.github.io\r\nDTSTAMP:%sT000000Z\r\nDTSTART;VALUE=DATE:%s\r\nDTEND;VALUE=DATE:%s\r\nSUMMARY:OTTER — %s\r\nURL:https://ottermathtalks.github.io/talks/\r\nEND:VEVENT\r\n" .date (urlize .title) ($t.Format "20060102") ($t.Format "20060102") (($t.AddDate 0 0 1).Format "20060102") $summary -}}
+{{- $uid := printf "%s-%s@ottermathtalks.github.io" .date (urlize .title) }}
+{{- if .start_utc }}
+{{- printf "BEGIN:VEVENT\r\nUID:%s\r\nDTSTAMP:%s\r\nDTSTART:%s\r\nDTEND:%s\r\nSUMMARY:OTTER — %s\r\nURL:https://ottermathtalks.github.io/talks/\r\nEND:VEVENT\r\n" $uid .start_utc .start_utc .end_utc $summary -}}
+{{- else }}
+{{- printf "BEGIN:VEVENT\r\nUID:%s\r\nDTSTAMP:%sT000000Z\r\nDTSTART;VALUE=DATE:%s\r\nDTEND;VALUE=DATE:%s\r\nSUMMARY:OTTER — %s\r\nURL:https://ottermathtalks.github.io/talks/\r\nEND:VEVENT\r\n" $uid ($t.Format "20060102") ($t.Format "20060102") (($t.AddDate 0 0 1).Format "20060102") $summary -}}
+{{- end }}
 {{- end }}{{ end -}}
 {{- printf "END:VCALENDAR\r\n" -}}

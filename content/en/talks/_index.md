@@ -5,7 +5,7 @@ upcoming_title: "Upcoming"
 upcoming_tba:
   - when: "Oct 16, 2026"
     title: "Canon talk: John E. McCarthy"
-    note: "The relaunch opener. Title and abstract to be announced."
+    note: "The relaunch opener. 10:00 am Central (15:00 UTC). Title and abstract to be announced."
   - when: "October 2026"
     title: "First live session — one short talk"
     note: "A talk on work that is not the speaker's own. The two-talk format starts in November."

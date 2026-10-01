@@ -6,7 +6,7 @@ upcoming_pill: "próxima"
 upcoming_tba:
   - when: "16 oct 2026"
     title: "Charla canónica: John E. McCarthy"
-    note: "La charla inaugural del relanzamiento. Título y resumen por anunciar."
+    note: "La charla inaugural del relanzamiento. 10:00 a. m. del centro de EE. UU. (15:00 UTC; 9:00 a. m. en CDMX). Título y resumen por anunciar."
   - when: "Octubre 2026"
     title: "Primera sesión en vivo — una charla corta"
     note: "Una charla sobre trabajo ajeno. El formato de dos charlas comienza en noviembre."
