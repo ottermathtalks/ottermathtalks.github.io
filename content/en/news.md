@@ -10,7 +10,7 @@ Every issue — plus the Zoom link the week of each talk — goes out by email t
 
 {{< button href="https://groups.google.com/g/ottermathtalks" text="Join the mailing list" >}}
 
-No Google account? From any email address, send a blank email to [ottermathtalks+subscribe@googlegroups.com](mailto:ottermathtalks+subscribe@googlegroups.com) and reply to the confirmation that comes back.
+No Google account? Send a blank email to [ottermathtalks+subscribe@googlegroups.com](mailto:ottermathtalks+subscribe@googlegroups.com) and reply to the confirmation that comes back. You may need to check your spam or promotions folder.
 
 ## Issues
 

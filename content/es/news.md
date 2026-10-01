@@ -10,7 +10,7 @@ Cada número — junto con el enlace de Zoom la semana de cada charla — se env
 
 {{< button href="https://groups.google.com/g/ottermathtalks" text="Únete a la lista de correo" >}}
 
-¿Sin cuenta de Google? Desde cualquier dirección de correo, envía un mensaje vacío a [ottermathtalks+subscribe@googlegroups.com](mailto:ottermathtalks+subscribe@googlegroups.com) y responde a la confirmación que recibirás.
+¿Sin cuenta de Google? Envía un mensaje vacío a [ottermathtalks+subscribe@googlegroups.com](mailto:ottermathtalks+subscribe@googlegroups.com) y responde a la confirmación que recibirás. Quizá tengas que revisar tu carpeta de spam o promociones.
 
 ## Números
 
