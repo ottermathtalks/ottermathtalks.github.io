@@ -9,6 +9,7 @@
       <a class="btn" href="{{ .Site.Params.signup }}">{{ $p.cta_signup }}</a>
       <a class="btn btn-ghost" href="{{ $p.cta_talks_url | relURL }}">{{ $p.cta_talks }}</a>
     </div>
+    {{ with $p.signup_alt }}<p class="section-note" style="margin-top:.9rem">{{ . | markdownify }}</p>{{ end }}
     {{ with $p.notice }}<div class="notice">{{ . }}</div>{{ end }}
   </div>
 </section>
