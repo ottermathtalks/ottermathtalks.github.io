@@ -22,7 +22,7 @@ programs:
     url: "/get-involved/"
 next_title: "Next up"
 next_when: "Oct 16, 2026"
-next_talk: "John E. McCarthy opens the relaunched talk series"
+next_talk: "John E. McCarthy — The Lei–Zhang Entropy Theorem and the Krzyż Conjecture"
 next_note: "First canon talk, 10:00 am Central (15:00 UTC). Michael Hartz follows in November, Orr Shalit in December."
 next_pill: "upcoming"
 next_footnote: "Sign up and the Zoom link lands in your inbox the week of each talk."
