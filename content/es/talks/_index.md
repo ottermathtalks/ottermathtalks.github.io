@@ -7,12 +7,12 @@ upcoming_tba:
   - when: "16 oct 2026"
     title: "Charla canónica — John E. McCarthy: The Lei–Zhang Entropy Theorem and the Krzyż Conjecture"
     note: "10:00 a. m. del centro de EE. UU. (15:00 UTC; 9:00 a. m. en CDMX). Resumen en la página en inglés."
-  - when: "Octubre 2026"
-    title: "Primera sesión en vivo — una charla corta"
-    note: "Una charla sobre trabajo ajeno. El formato de dos charlas comienza en noviembre."
   - when: "Noviembre 2026"
     title: "Charla canónica: Michael Hartz"
     note: "Fecha por anunciar."
+  - when: "Noviembre 2026"
+    title: "Primera sesión en vivo — una charla corta"
+    note: "Una charla sobre trabajo ajeno. El formato de dos charlas comienza en diciembre."
   - when: "Diciembre 2026"
     title: "Charla canónica: Orr Shalit"
     note: "Fecha por anunciar."
@@ -25,4 +25,4 @@ OTTER organiza dos tipos de charla al mes.
 - **Charlas canónicas.** Un experto invitado da una introducción extensa a un tema central de la teoría de operadores o del análisis complejo. Se graban y se archivan en esta página.
 - **Sesiones en vivo.** Dos charlas de treinta minutos. La primera persona presenta trabajo que no es suyo ni de un colaborador cercano. La segunda charla la da quien abrió la sesión anterior, sobre un tema de su elección, incluido su propio trabajo.
 
-La sesión de octubre tendrá una sola charla corta; el formato de dos charlas comienza en noviembre.
+La sesión de noviembre tendrá una sola charla corta; el formato de dos charlas comienza en diciembre.
