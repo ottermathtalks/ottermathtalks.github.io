@@ -10,7 +10,7 @@
     <dt>Date</dt>
     <dd>{{ .Date.Format "Monday, January 2, 2006" }}{{ with .Params.talk_time }} · {{ . }}{{ end }}</dd>
     <dt>Where</dt>
-    <dd>{{ with .Params.zoom }}<a href="{{ . }}">Zoom — join the talk</a>{{ else }}{{ .Params.where | default "Zoom — the link will be posted here before the talk" }}{{ end }}</dd>
+    <dd>{{ with .Params.zoom }}<a href="{{ . }}">Zoom — join the talk</a>{{ with $.Params.zoom_id }} · meeting ID {{ . }}{{ end }}{{ with $.Params.zoom_passcode }} · passcode {{ . }}{{ end }}{{ else }}{{ .Params.where | default "Zoom — the link will be posted here before the talk" }}{{ end }}</dd>
     {{ with .Params.field }}
     <dt>Field</dt>
     <dd>{{ . }}</dd>
