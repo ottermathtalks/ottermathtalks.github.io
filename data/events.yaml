@@ -4,8 +4,8 @@
 # Timed events: add start_utc AND end_utc ("YYYYMMDDTHHMMSSZ"); without
 # them the feed event is all-day.
 - date: "2026-10-16"
-  title: "Canon talk: John E. McCarthy"
-  title_es: "Charla canónica: John E. McCarthy"
+  title: "Talk: John E. McCarthy"
+  title_es: "Charla: John E. McCarthy"
   start_utc: "20261016T150000Z"
   end_utc: "20261016T160000Z"
   url: /talks/2026-10-16-mccarthy/

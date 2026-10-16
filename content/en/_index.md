@@ -9,7 +9,7 @@ signup_alt: "No Google account? Send a blank email to [ottermathtalks+subscribe@
 programs_title: "What OTTER does"
 programs:
   - title: "Talk series"
-    text: "Two formats each month: a long-form expert introduction to a canon topic, and a live session of short talks — on Zoom, recorded to YouTube."
+    text: "Two formats each month: a long-form expert introduction to a core topic, and a live session of short talks — on Zoom, recorded to YouTube."
     link: "Talks"
     url: "/talks/"
   - title: "OTTER News"
@@ -23,7 +23,7 @@ programs:
 next_title: "Next up"
 next_when: "Oct 16, 2026"
 next_talk: "John E. McCarthy — The Lei–Zhang Entropy Theorem and the Krzyż Conjecture"
-next_note: "First canon talk, 10:00 am Central (15:00 UTC). Michael Hartz follows in November, Orr Shalit in December."
+next_note: "10:00 am Central (15:00 UTC). Michael Hartz follows in November, Orr Shalit in December."
 next_pill: "upcoming"
 next_footnote: "The Zoom link is posted with each talk — sign up and it lands in your inbox too."
 ---

@@ -9,7 +9,7 @@ signup_alt: "¿Sin cuenta de Google? Envía un mensaje vacío a [ottermathtalks+
 programs_title: "Qué hace OTTER"
 programs:
   - title: "Ciclo de charlas"
-    text: "Dos formatos al mes: una introducción amplia a un tema canónico por un experto invitado, y una sesión en vivo de charlas cortas — por Zoom, grabadas en YouTube."
+    text: "Dos formatos al mes: una introducción amplia a un tema central por un experto invitado, y una sesión en vivo de charlas cortas — por Zoom, grabadas en YouTube."
     link: "Charlas"
     url: "/es/talks/"
   - title: "OTTER News"
@@ -23,7 +23,7 @@ programs:
 next_title: "Próximamente"
 next_when: "16 oct 2026"
 next_talk: "John E. McCarthy — The Lei–Zhang Entropy Theorem and the Krzyż Conjecture"
-next_note: "Primera charla canónica, 10:00 a. m. del centro de EE. UU. (15:00 UTC; 9:00 a. m. en CDMX). Le siguen Michael Hartz en noviembre y Orr Shalit en diciembre."
+next_note: "10:00 a. m. del centro de EE. UU. (15:00 UTC; 9:00 a. m. en CDMX). Le siguen Michael Hartz en noviembre y Orr Shalit en diciembre."
 next_pill: "próxima"
 next_footnote: "El enlace de Zoom se publica con cada charla — suscríbete y también te llega al correo."
 ---
