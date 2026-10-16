@@ -25,7 +25,8 @@
       <li class="talk-row">
         <span class="talk-when">{{ .when }}</span>
         <div>
-          <p class="talk-title">{{ .title }}</p>
+          {{ if .url }}<p class="talk-title"><a href="{{ .url | relURL }}">{{ .title }}</a></p>
+          {{ else }}<p class="talk-title">{{ .title }}</p>{{ end }}
           {{ with .note }}<p class="talk-byline">{{ . }}</p>{{ end }}
         </div>
         <span class="pill">{{ $.Params.upcoming_pill | default "upcoming" }}</span>

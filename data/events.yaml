@@ -13,9 +13,11 @@
   title: "Live session: one short talk (speaker TBA)"
   title_es: "Sesión en vivo: una charla corta (ponente por anunciar)"
   url: /talks/
-- month: "2026-11"
-  title: "Talk: Michael Hartz (date TBA)"
-  title_es: "Charla: Michael Hartz (fecha por anunciar)"
+- date: "2026-11-12"
+  title: "Talk: Michael Hartz"
+  title_es: "Charla: Michael Hartz"
+  start_utc: "20261112T160000Z"
+  end_utc: "20261112T170000Z"
   url: /talks/
 - month: "2026-12"
   title: "Talk: Orr Shalit (date TBA)"
