@@ -4,10 +4,6 @@ intro: "Dos formatos al mes durante el año académico, por Zoom, grabados en Yo
 upcoming_title: "Próximas"
 upcoming_pill: "próxima"
 upcoming_tba:
-  - when: "16 oct 2026"
-    title: "Charla — John E. McCarthy: The Lei–Zhang Entropy Theorem and the Krzyż Conjecture"
-    note: "10:00 a. m. del centro de EE. UU. (15:00 UTC; 9:00 a. m. en CDMX). Resumen en la página en inglés."
-    url: "/talks/2026-10-16-mccarthy/"
   - when: "12 nov 2026"
     title: "Charla: Michael Hartz"
     note: "10:00 a. m. del centro de EE. UU. (16:00 UTC; 10:00 a. m. en CDMX). Título y resumen por anunciar."
@@ -17,8 +13,8 @@ upcoming_tba:
   - when: "Diciembre 2026"
     title: "Charla: Orr Shalit"
     note: "Fecha por anunciar."
-archive_title: "Archivo · 2020–2023"
-archive_note: "Las 25 charlas grabadas de la etapa original de OTTER están archivadas, con resúmenes y grabaciones, [en la página en inglés](/talks/) — y también en [el canal de YouTube](https://www.youtube.com/@ottermathtalks3601)."
+archive_title: "Archivo"
+archive_note: "Todas las charlas grabadas de OTTER — la etapa original (2020–2023) y ahora el relanzamiento — están archivadas, con resúmenes y grabaciones, [en la página en inglés](/talks/), y también en [el canal de YouTube](https://www.youtube.com/@ottermathtalks3601)."
 ---
 
 OTTER organiza dos tipos de evento al mes.

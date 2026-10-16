@@ -12,8 +12,8 @@ upcoming_tba:
   - when: "December 2026"
     title: "Talk: Orr Shalit"
     note: "Date to be announced."
-archive_title: "Archive · 2020–2023"
-archive_note: "Every recorded talk from the original OTTER series, with abstract, subfield label, and embedded recording — also on [the YouTube channel](https://www.youtube.com/@ottermathtalks3601). Three talks are from the January 2022 OTTER Math Meeting."
+archive_title: "Archive"
+archive_note: "Every recorded OTTER talk — the original series (2020–2023, three talks from the January 2022 OTTER Math Meeting) and now the relaunch era — with abstracts, subfield labels, and embedded recordings, also on [the YouTube channel](https://www.youtube.com/@ottermathtalks3601)."
 ---
 
 OTTER hosts two kinds of event each month.

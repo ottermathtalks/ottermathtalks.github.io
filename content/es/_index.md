@@ -1,6 +1,6 @@
 ---
 title: "Charlas de teoría de operadores para investigadores jóvenes"
-ribbon: "Relanzamiento otoño 2026 · primera charla el 16 de octubre"
+ribbon: "Relanzado otoño 2026 · próxima charla el 12 de noviembre"
 lede: "OTTER conecta a estudiantes de posgrado, posdocs e investigadores jóvenes en teoría de operadores y análisis complejo."
 cta_signup: "Únete a la lista de correo"
 cta_talks: "Ver las próximas charlas"
@@ -21,9 +21,9 @@ programs:
     link: "Participa"
     url: "/es/get-involved/"
 next_title: "Próximamente"
-next_when: "16 oct 2026"
-next_talk: "John E. McCarthy — The Lei–Zhang Entropy Theorem and the Krzyż Conjecture"
-next_note: "10:00 a. m. del centro de EE. UU. (15:00 UTC; 9:00 a. m. en CDMX). Le siguen Michael Hartz el 12 de noviembre y Orr Shalit en diciembre."
+next_when: "12 nov 2026"
+next_talk: "Charla: Michael Hartz"
+next_note: "10:00 a. m. del centro de EE. UU. (16:00 UTC; 10:00 a. m. en CDMX). Le sigue Orr Shalit en diciembre."
 next_pill: "próxima"
 next_footnote: "El enlace de Zoom se publica con cada charla — suscríbete y también te llega al correo."
 ---

@@ -1,6 +1,6 @@
 ---
 title: "Operator theory talks for early researchers"
-ribbon: "Relaunching fall 2026 · first talk October 16"
+ribbon: "Relaunched fall 2026 · next talk November 12"
 lede: "OTTER connects graduate students, postdocs, and early-career researchers in operator theory and complex analysis."
 cta_signup: "Join the mailing list"
 cta_talks: "See upcoming talks"
@@ -21,9 +21,9 @@ programs:
     link: "Get involved"
     url: "/get-involved/"
 next_title: "Next up"
-next_when: "Oct 16, 2026"
-next_talk: "John E. McCarthy — The Lei–Zhang Entropy Theorem and the Krzyż Conjecture"
-next_note: "10:00 am Central (15:00 UTC). Michael Hartz follows on November 12, Orr Shalit in December."
+next_when: "Nov 12, 2026"
+next_talk: "Talk: Michael Hartz"
+next_note: "10:00 am Central (16:00 UTC). Orr Shalit follows in December."
 next_pill: "upcoming"
 next_footnote: "The Zoom link is posted with each talk — sign up and it lands in your inbox too."
 ---
