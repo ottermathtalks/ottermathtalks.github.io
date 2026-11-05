@@ -22,7 +22,7 @@ programs:
     url: "/get-involved/"
 next_title: "Next up"
 next_when: "Nov 12, 2026"
-next_talk: "Talk: Michael Hartz"
+next_talk: "Michael Hartz — A linear algebra approach to maximum principles"
 next_note: "10:00 am Central (16:00 UTC). Orr Shalit follows in December."
 next_pill: "upcoming"
 next_footnote: "The Zoom link is posted with each talk — sign up and it lands in your inbox too."

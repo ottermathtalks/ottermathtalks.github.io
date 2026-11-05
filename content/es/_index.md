@@ -22,7 +22,7 @@ programs:
     url: "/es/get-involved/"
 next_title: "Próximamente"
 next_when: "12 nov 2026"
-next_talk: "Charla: Michael Hartz"
+next_talk: "Michael Hartz — A linear algebra approach to maximum principles"
 next_note: "10:00 a. m. del centro de EE. UU. (16:00 UTC; 10:00 a. m. en CDMX). Le sigue Orr Shalit en diciembre."
 next_pill: "próxima"
 next_footnote: "El enlace de Zoom se publica con cada charla — suscríbete y también te llega al correo."
