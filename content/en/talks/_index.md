@@ -4,8 +4,8 @@ intro: "Two formats each month during the academic year, on Zoom, recorded to Yo
 upcoming_title: "Upcoming"
 upcoming_tba:
   - when: "TBA"
-    title: "First live session — one short talk"
-    note: "A talk on work that is not the speaker's own. Date to be announced."
+    title: "First live session"
+    note: "Date to be announced."
   - when: "December 2026"
     title: "Talk: Orr Shalit"
     note: "Date to be announced."
@@ -16,6 +16,6 @@ archive_note: "Every recorded OTTER talk — the original series (2020–2023, t
 OTTER hosts two kinds of event each month.
 
 - **Talks.** An invited expert gives a long-form introduction to a core topic in operator theory or complex analysis. These are recorded and archived on this page.
-- **Live sessions.** Two thirty-minute talks. The first speaker presents work that is not their own or a close collaborator's. The second talk is given by the previous session's first speaker, on a topic of their choice, including their own work.
+- **Live sessions.** Two thirty-minute talks.
 
 The first live session will have a single short talk; the two-talk format begins with the second.

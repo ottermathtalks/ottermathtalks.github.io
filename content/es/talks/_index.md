@@ -9,8 +9,8 @@ upcoming_tba:
     note: "10:00 a. m. del centro de EE. UU. (16:00 UTC; 10:00 a. m. en CDMX). Resumen en la página en inglés."
     url: "/talks/2026-11-12-hartz/"
   - when: "Por anunciar"
-    title: "Primera sesión en vivo — una charla corta"
-    note: "Una charla sobre trabajo ajeno. Fecha por anunciar."
+    title: "Primera sesión en vivo"
+    note: "Fecha por anunciar."
   - when: "Diciembre 2026"
     title: "Charla: Orr Shalit"
     note: "Fecha por anunciar."
@@ -21,6 +21,6 @@ archive_note: "Todas las charlas grabadas de OTTER — la etapa original (2020�
 OTTER organiza dos tipos de evento al mes.
 
 - **Charlas.** Un experto invitado da una introducción extensa a un tema central de la teoría de operadores o del análisis complejo. Se graban y se archivan en esta página.
-- **Sesiones en vivo.** Dos charlas de treinta minutos. La primera persona presenta trabajo que no es suyo ni de un colaborador cercano. La segunda charla la da quien abrió la sesión anterior, sobre un tema de su elección, incluido su propio trabajo.
+- **Sesiones en vivo.** Dos charlas de treinta minutos.
 
 La primera sesión en vivo tendrá una sola charla corta; el formato de dos charlas comienza a partir de la segunda.
