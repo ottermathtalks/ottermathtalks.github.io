@@ -8,9 +8,9 @@ upcoming_tba:
     title: "Charla — Michael Hartz: A linear algebra approach to maximum principles"
     note: "10:00 a. m. del centro de EE. UU. (16:00 UTC; 10:00 a. m. en CDMX). Resumen en la página en inglés."
     url: "/talks/2026-11-12-hartz/"
-  - when: "Noviembre 2026"
+  - when: "Por anunciar"
     title: "Primera sesión en vivo — una charla corta"
-    note: "Una charla sobre trabajo ajeno. El formato de dos charlas comienza en diciembre."
+    note: "Una charla sobre trabajo ajeno. Fecha por anunciar."
   - when: "Diciembre 2026"
     title: "Charla: Orr Shalit"
     note: "Fecha por anunciar."
@@ -23,4 +23,4 @@ OTTER organiza dos tipos de evento al mes.
 - **Charlas.** Un experto invitado da una introducción extensa a un tema central de la teoría de operadores o del análisis complejo. Se graban y se archivan en esta página.
 - **Sesiones en vivo.** Dos charlas de treinta minutos. La primera persona presenta trabajo que no es suyo ni de un colaborador cercano. La segunda charla la da quien abrió la sesión anterior, sobre un tema de su elección, incluido su propio trabajo.
 
-La sesión de noviembre tendrá una sola charla corta; el formato de dos charlas comienza en diciembre.
+La primera sesión en vivo tendrá una sola charla corta; el formato de dos charlas comienza a partir de la segunda.
