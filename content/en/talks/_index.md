@@ -1,6 +1,6 @@
 ---
 title: "Talks"
-intro: "Two formats each month during the academic year, on Zoom, recorded to YouTube. Talks resume October 16, 2026."
+intro: "Two formats each month during the academic year, on Zoom, recorded to YouTube."
 upcoming_title: "Upcoming"
 upcoming_tba:
   - when: "TBA"

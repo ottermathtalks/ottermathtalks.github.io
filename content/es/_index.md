@@ -1,6 +1,6 @@
 ---
 title: "Charlas de teoría de operadores para investigadores jóvenes"
-ribbon: "Relanzado otoño 2026 · próxima charla el 12 de noviembre"
+ribbon: "Relanzado otoño 2026 · próxima charla en diciembre"
 lede: "OTTER conecta a estudiantes de posgrado, posdocs e investigadores jóvenes en teoría de operadores y análisis complejo."
 cta_signup: "Únete a la lista de correo"
 cta_talks: "Ver las próximas charlas"
@@ -21,9 +21,9 @@ programs:
     link: "Participa"
     url: "/es/get-involved/"
 next_title: "Próximamente"
-next_when: "12 nov 2026"
-next_talk: "Michael Hartz — A linear algebra approach to maximum principles"
-next_note: "10:00 a. m. del centro de EE. UU. (16:00 UTC; 10:00 a. m. en CDMX). Le sigue Orr Shalit en diciembre."
+next_when: "Diciembre 2026"
+next_talk: "Orr Shalit"
+next_note: "Fecha y título por anunciar."
 next_pill: "próxima"
 next_footnote: "El enlace de Zoom se publica con cada charla — suscríbete y también te llega al correo."
 ---

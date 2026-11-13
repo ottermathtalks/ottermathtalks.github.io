@@ -1,13 +1,9 @@
 ---
 title: "Charlas"
-intro: "Dos formatos al mes durante el año académico, por Zoom, grabados en YouTube. Las charlas regresan el 16 de octubre de 2026."
+intro: "Dos formatos al mes durante el año académico, por Zoom, grabados en YouTube."
 upcoming_title: "Próximas"
 upcoming_pill: "próxima"
 upcoming_tba:
-  - when: "12 nov 2026"
-    title: "Charla — Michael Hartz: A linear algebra approach to maximum principles"
-    note: "10:00 a. m. del centro de EE. UU. (16:00 UTC; 10:00 a. m. en CDMX). Resumen en la página en inglés."
-    url: "/talks/2026-11-12-hartz/"
   - when: "Por anunciar"
     title: "Primera sesión en vivo"
     note: "Fecha por anunciar."
