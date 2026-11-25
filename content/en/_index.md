@@ -1,6 +1,6 @@
 ---
 title: "Operator theory talks for early researchers"
-ribbon: "Relaunched fall 2026 · next talk in December"
+ribbon: "Relaunched fall 2026 · next talk December 10"
 lede: "OTTER connects graduate students, postdocs, and early-career researchers in operator theory and complex analysis."
 cta_signup: "Join the mailing list"
 cta_talks: "See upcoming talks"
@@ -21,9 +21,9 @@ programs:
     link: "Get involved"
     url: "/get-involved/"
 next_title: "Next up"
-next_when: "December 2026"
-next_talk: "Orr Shalit"
-next_note: "Date and title to be announced."
+next_when: "Dec 10, 2026"
+next_talk: "Orr Shalit — The two-circle trick"
+next_note: "10:00 am Central (16:00 UTC)."
 next_pill: "upcoming"
 next_footnote: "The Zoom link is posted with each talk — sign up and it lands in your inbox too."
 ---

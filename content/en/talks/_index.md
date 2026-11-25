@@ -6,9 +6,6 @@ upcoming_tba:
   - when: "TBA"
     title: "First live session"
     note: "Date to be announced."
-  - when: "December 2026"
-    title: "Talk: Orr Shalit"
-    note: "Date to be announced."
 archive_title: "Archive"
 archive_note: "Every recorded OTTER talk — the original series (2020–2023, three talks from the January 2022 OTTER Math Meeting) and now the relaunch era — with abstracts, subfield labels, and embedded recordings, also on [the YouTube channel](https://www.youtube.com/@ottermathtalks3601)."
 ---

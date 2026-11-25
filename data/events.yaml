@@ -15,7 +15,9 @@
   start_utc: "20261112T160000Z"
   end_utc: "20261112T170000Z"
   url: /talks/2026-11-12-hartz/
-- month: "2026-12"
-  title: "Talk: Orr Shalit (date TBA)"
-  title_es: "Charla: Orr Shalit (fecha por anunciar)"
-  url: /talks/
+- date: "2026-12-10"
+  title: "Talk: Orr Shalit"
+  title_es: "Charla: Orr Shalit"
+  start_utc: "20261210T160000Z"
+  end_utc: "20261210T170000Z"
+  url: /talks/2026-12-10-shalit/
